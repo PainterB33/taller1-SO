@@ -1,9 +1,9 @@
 GCC = gcc
 FLAGS = -lm
-PROGRAMAS = laboratorio.c
+PROGRAMAS = laboratorio
 
-lab:
-	$(GCC) $@.c laboratorio.c -o $@
+laboratorio:
+	$(GCC) laboratorio.c -o $@
 
 clear:
 	$(RM) $(PROGRAMAS)
